@@ -157,7 +157,7 @@ class Obstacle {
         this.color = {
             r: 255,
             g: 255,
-            b: 255
+            b: 0
         };
         this.damage = 2;
         this.done = false;
@@ -182,7 +182,7 @@ class Obstacle {
     show() {
         fill(
             this.color.r,
-            this.color.g,
+            this.health * 51,
             this.color.b
         );
         noStroke();
