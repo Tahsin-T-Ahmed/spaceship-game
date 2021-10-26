@@ -193,8 +193,8 @@ class Obstacle {
         //INCREASE DIFFICULTY
         //INCREASE ASTEROID CHANCE
         //INCREASE ASTEROID SPEED
-        asteroid.speed += asteroid.chanceIncrement;
-        asteroid.chance += asteroid.speedIncrement;
+        asteroid.speed += asteroid.speedIncrement;
+        asteroid.chance += asteroid.chanceIncrement;
 
 
         this.detectBullets();
